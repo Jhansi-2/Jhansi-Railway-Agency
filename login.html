@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login | Jhansi Railway Agency</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img class="brand-logo" src="images/railway-logo.jiff" alt="Jhansi Railway Agency">
+    <div class="brand-text"><small>JHANSI</small><strong>RAILWAY AGENCY</strong></div>
+  </a>
+</header>
+
+<main class="login-page">
+  <section class="card login-box">
+    <p class="eyebrow">WELCOME BACK</p>
+    <h1>Login to Your Account</h1>
+    <p class="muted">Frontend demo — enter any email/mobile and password.</p>
+
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="loginEmail">Email / Mobile</label>
+        <input id="loginEmail" type="text" placeholder="Enter email or mobile" required>
+      </div>
+      <div class="form-group">
+        <label for="loginPassword">Password</label>
+        <input id="loginPassword" type="password" placeholder="Enter password" required>
+      </div>
+      <div class="actions">
+        <button class="btn" type="submit">Login</button>
+      </div>
+      <p id="loginMessage" class="message"></p>
+    </form>
+  </section>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
